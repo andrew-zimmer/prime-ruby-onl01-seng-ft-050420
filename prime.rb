@@ -6,6 +6,8 @@ def prime?(int)
   infinite_test_num = (2...int).to_a
   if int <= 1 
     false
+  elsif in == 2 
+    true 
   else 
     if infinite_test_num.any? {|num| int % num == 0}
       false 
