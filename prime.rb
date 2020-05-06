@@ -3,7 +3,7 @@ require 'pry'
 
 def prime?(int)
   
-  infinite_test_num = (2...int)
+  infinite_test_num = (2...int).to_a
   if int <= 1 
     false
   else 
